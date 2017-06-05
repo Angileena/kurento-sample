@@ -29,7 +29,7 @@ var args = getopts(location.search,
 {
   default:
   {
-    ws_uri: 'wss://' + location.hostname + ':8433/kurento',
+    ws_uri: 'https://' + location.hostname + '/kurento-recorder',
     file_uri: 'file:///tmp/recorder_demo.webm', // file to be stored in media server
     ice_servers: undefined
   }
